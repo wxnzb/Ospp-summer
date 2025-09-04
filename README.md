@@ -6,15 +6,15 @@
 
 ## My OSPP Journey
 
-My OSPP journey began with exploring Kmesh, a high-performance, low-overhead service mesh data plane based on eBPF and the programmable Linux kernel.
+My OSPP journey began with exploring Kmesh, a high-performance, low-overhead service mesh data plane based on **eBPF** and the programmable Linux kernel.
 
 When writing eBPF programs, validating their functionality typically requires compiling and then running black-box tests. This approach is inefficient and heavily dependent on the test author’s skill. Inspired by Cilium, we introduced a dedicated eBPF unit test framework for Kmesh.
 
-At the current stage, the framework has been built. My main work focused on designing and implementing comprehensive unit tests for eBPF programs such as sendMsg and cgroup.
+At the current stage, the framework has been built. My main work focused on designing and implementing comprehensive unit tests for eBPF programs such as **sendMsg** and **cgroup**.
 
 This process involved mastering networking fundamentals, understanding eBPF internals, and collaborating with the community to ensure the test framework is practical, reliable, and extensible.
 
-I also worked on integrating these unit tests into GitHub Actions, making them part of the CI pipeline with coverage reports, ensuring that every contribution to Kmesh is continuously validated.
+I will also worked on integrating these unit tests into GitHub Actions, making them part of the CI pipeline with coverage reports, ensuring that every contribution to Kmesh is continuously validated.
 
 ---
 
